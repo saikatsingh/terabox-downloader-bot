@@ -6,9 +6,9 @@ API_HASH = "b39be032fc0c567d0cda60dbea99606e"  # your Telegram API HASH
 BOT_TOKEN = ""  # your Bot Token
 
 # ---- REDIS DATABASE ----
-HOST = "redis-12345.c1.us-east-1-2.ec2.cloud.redislabs.com"  # your Redis host
-PORT = 6379  # Redis port
-PASSWORD = "your_redis_password_here"  # Redis password (if any)
+HOST = "redis-12345.c299.us-east-1-2.ec2.cloud.redislabs.com"
+PORT = 15254  # whatever your dashboard shows
+PASSWORD = "your_actual_password_here"
 
 # ---- BOT SETTINGS ----
 PRIVATE_CHAT_ID = -1002975449080  # channel/chat ID for storing videos
