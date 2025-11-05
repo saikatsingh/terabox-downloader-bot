@@ -89,3 +89,15 @@ async def handle_message(m: Message):
 bot.start(bot_token=BOT_TOKEN)
 
 bot.run_until_disconnected()
+
+# main.py ke last me add karein:
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return "Bot is running!"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
+
